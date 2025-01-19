@@ -7,7 +7,7 @@ input[type="text"],input[type="password"],input[type="email"]{
 }
 
 button{
-    @apply bg-gray-300 w-full
+    @apply bg-gray-300 
 }
 
 button.primary{
