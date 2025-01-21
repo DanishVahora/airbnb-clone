@@ -5,10 +5,11 @@ import IndexPages from './pages/IndexPage'
 import LoginPage from './pages/LoginPage'
 import Layout from './Layout'
 import RegisterPage from './pages/RegisterPage'
+import axios from 'axios'
 
 
 function App() {
-
+  axios.defaults.baseURL = 'http://localhost:4000'
   return (
     <>
       <Routes>
